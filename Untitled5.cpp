@@ -44,10 +44,9 @@ int main()
    turnaround[smallest] = end - a[smallest];
    }
  }
-// printf("pid \t burst \t arrival \twaiting \tturnaround \tcompletion");
+
  for(i=0;i<n;i++)
  {
-  // printf("\n %d \t   %d \t %d\t\t%d   \t\t%d\t\t%d",i+1,x[i],a[i],waiting[i],turnaround[i],completion[i]);
    avg = avg + waiting[i];
    tt = tt + turnaround[i];
  }
