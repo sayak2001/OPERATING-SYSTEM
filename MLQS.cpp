@@ -151,5 +151,5 @@ int main()
 	s3();
 	s4();	
 	s6();		
-
+	printf("\n\nMADE BY Sayak Bhowmick");
 }
